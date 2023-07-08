@@ -1,9 +1,9 @@
-import createRestaurantHomePage from './restaurant'
+import createRestaurantHomePage from './restaurant';
 
 
 function initialLoad() {
-    createRestaurantHomePage()
+    createRestaurantHomePage();
 }
 
 
-export default initialLoad()
+export default initialLoad();
