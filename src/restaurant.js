@@ -13,7 +13,7 @@ const createRestaurantHomePage = () => {
      // Image
      const image = document.createElement("img");
      image.src = 'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60';
-     image.height = '300';
+     image.height = '700';
      newDiv.appendChild(image);
  
      // Text
