@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headline {
+  font-family: "Poppins", Courier, monospace;
+  font-size: 40px;
+}
+
+#logo {
+  display: flex;
+  width: 120px;
+  height: auto;
+}
+
+.navText {
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Poppins", Helvetica, sans-serif;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.navDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120%;
+}
+
+#navbar {
+  display: flex;
+  gap: 40px;
+}
+
+.heroImage {
+  height: 600px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.homeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: rgb(245, 244, 210);
+}
+
+.homeText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#content {
+  padding: 1px;
+}
+
+.orderButton {
+  display: block;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  margin-top: 2rem;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  color: #fff;
+  box-shadow: black 4px 4px;
+}
+
+.pText {
+  font-family: "Poppins", Courier, monospace;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: burlywood;
+}
+
+
+.heading {
+   font-family: "Poppins", Courier, monospace;
+  font-size: 45px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Poppins", Courier, monospace;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: "Poppins", Courier, monospace;
+}
+
+ul.menu-list {
+  list-style-type: none;
+  font-family: "Poppins", Courier, monospace;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+ul.menu-list li {
+  margin-bottom: 10px;
+  font-family: "Poppins", Courier, monospace;
+}
+
+/* Different section styles */
+
+
+h2 {
+  color: #333;
+}
+
+ul.menu-list {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul.menu-list li {
+  color: #666;
+}
+
+ul.menu-list li:hover {
+  color: #333;
+}
+
+
+.menu-list {
+    font-family: "Rubik", sans-serif, Verdana;
+    text-align: center;
+    font-size: 18px;
+}
+
+
