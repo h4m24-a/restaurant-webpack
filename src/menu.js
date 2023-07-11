@@ -29,28 +29,28 @@ const createMenuPage = () => {
     beveragesHeading.textContent = "Beverages";
     
     const starterItem1 = document.createElement("li");
-    starterItem1.textContent = "Starter 1";
+    starterItem1.textContent = "Tomato Soup";
     
     const starterItem2 = document.createElement("li");
-    starterItem2.textContent = "Starter 2";
+    starterItem2.textContent = "Chicken Soup";
     
     const mainDishItem1 = document.createElement("li");
-    mainDishItem1.textContent = "Main Dish 1";
+    mainDishItem1.textContent = "Basil Tagliatelle";
     
     const mainDishItem2 = document.createElement("li");
-    mainDishItem2.textContent = "Main Dish 2";
+    mainDishItem2.textContent = "Cheese Ravioli";
     
     const dessertItem1 = document.createElement("li");
-    dessertItem1.textContent = "Dessert 1";
+    dessertItem1.textContent = "Cheese Cake";
     
     const dessertItem2 = document.createElement("li");
-    dessertItem2.textContent = "Dessert 2";
+    dessertItem2.textContent = "Tiramisu";
     
     const beverageItem1 = document.createElement("li");
-    beverageItem1.textContent = "Beverage 1";
+    beverageItem1.textContent = "Tea";
     
     const beverageItem2 = document.createElement("li");
-    beverageItem2.textContent = "Beverage 2";
+    beverageItem2.textContent = "Soft Drinks";
     
     startersList.appendChild(starterItem1);
     startersList.appendChild(starterItem2);
