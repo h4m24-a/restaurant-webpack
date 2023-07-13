@@ -102,9 +102,8 @@
   background-color: burlywood;
 }
 
-
 .heading {
-   font-family: "Poppins", Courier, monospace;
+  font-family: "Poppins", Courier, monospace;
   font-size: 45px;
   text-align: center;
 }
@@ -135,7 +134,6 @@ ul.menu-list li {
 
 /* Different section styles */
 
-
 h2 {
   color: #333;
 }
@@ -155,13 +153,11 @@ ul.menu-list li:hover {
   color: #333;
 }
 
-
 .menu-list {
-    font-family: "Rubik", sans-serif, Verdana;
-    text-align: center;
-    font-size: 18px;
+  font-family: "Rubik", sans-serif, Verdana;
+  text-align: center;
+  font-size: 18px;
 }
-
 
 .topdishDiv {
   display: block;
@@ -169,7 +165,6 @@ ul.menu-list li:hover {
   align-items: center;
   background-color: #f9f7fc;
 }
-
 
 .topdishText {
   font-family: "Poppins", sans-serif, Verdana;
@@ -226,12 +221,11 @@ ul.menu-list li:hover {
   padding-top: 12px;
 }
 
-
 .newsletterDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;  
+  text-align: center;
 }
 
 .newsletterText {
@@ -265,7 +259,6 @@ ul.menu-list li:hover {
 
 .emailInput {
   width: 50%;
-  border-radius: 10px;
   padding: 10px;
   margin: 4px 12px 8px 0;
   font-size: 18px;
@@ -273,16 +266,37 @@ ul.menu-list li:hover {
   color: #333;
 }
 
+
+
 .submitButton {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #f2f2f2;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: #70bf4f;
   font-family: "Poppins", Verdana, Tahoma, sans-serif;
 }
+.submitButton:hover .submitButton {
+  margin-left: 65px;
+}
+.submitButton {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease-in 0s;
+}
+.submitButton:hover {
+  border-radius: 60px;
+  color: rgb(255, 255, 255) !important;
+}
+.submitButton {
+  border: 2px solid rgb(128, 237, 153);
+  color: rgb(128, 237, 153) !important;
+}
+.submitButton:hover {
+  border-color: rgb(128, 237, 153);
+  background: rgb(128, 237, 153);
+}
+
+
 
 .footerDiv {
   display: flex;
