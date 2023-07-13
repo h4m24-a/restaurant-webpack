@@ -48,6 +48,7 @@ const createTabs = () => {
     clearContent();
     createMenuPage();
   });
+  
 };
 
 function clearContent() {
