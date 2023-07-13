@@ -9,6 +9,10 @@ const createRestaurantHomePage = () => {
   const topdishDiv = document.createElement("div");
   topdishDiv.classList.add("topdishDiv");
 
+  const newsletterDiv = document.createElement("div");
+  newsletterDiv.classList.add("newsletterDiv");
+  
+
   
   // Heading
   const headline = document.createElement("h1");
@@ -95,10 +99,52 @@ function createCard(imageUrl, headingText, paragraphText, priceText) {
     price.classList.add("card-price");
     card.appendChild(price);
 
-  
-
   return card;
 }
+
+// Newsletter
+const newsletterText = document.createElement("p");
+newsletterText.innerText =
+  "Become a member and subscribe to our newsletter!";
+newsletterText.classList.add("newsletterText");
+
+// Create input element
+const emailInput = document.createElement("input");
+emailInput.type = "email";
+emailInput.placeholder = "Enter your email";
+emailInput.classList.add("emailInput");
+
+// Create submit button element
+const submitButton = document.createElement("button");
+submitButton.innerText = "Subscribe";
+submitButton.classList.add("submitButton");
+
+// Create form element
+const form = document.createElement("form");
+form.appendChild(emailInput);
+form.appendChild(submitButton);
+
+// Create inner div
+const innerDiv = document.createElement("div");
+innerDiv.classList.add("innerDiv");
+innerDiv.appendChild(newsletterText);
+innerDiv.appendChild(form);
+
+// Create image element
+const newsletterImage = document.createElement("img");
+newsletterImage.src =
+  "https://contrastly.com/wp-content/uploads/food-healthy-restaurant-262918.jpg";
+newsletterImage.classList.add("newsletterImage");
+
+// Create container for image and inner div
+const containerDiv = document.createElement("div");
+containerDiv.classList.add("containerDiv");
+containerDiv.appendChild(newsletterImage);
+containerDiv.appendChild(innerDiv);
+
+newsletterDiv.appendChild(containerDiv);
+content.appendChild(newsletterDiv);
+
 
   
 };

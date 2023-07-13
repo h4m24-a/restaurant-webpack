@@ -189,7 +189,7 @@ ul.menu-list li:hover {
   width: 280px;
   height: 500px;
   background-color: #faf7f7;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 10px;
   padding: 2rem;
   box-sizing: border-box;
@@ -225,3 +225,61 @@ ul.menu-list li:hover {
   text-align: center;
   padding-top: 12px;
 }
+
+
+.newsletterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.newsletterText {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Poppins", Verdana, Tahoma, sans-serif;
+}
+
+.newsletterImage {
+  display: block;
+  max-width: 50%;
+  max-height: 100%;
+  margin: 0 auto;
+  filter: brightness(50%);
+  border-radius: 5%;
+}
+
+.containerDiv {
+  position: relative;
+}
+
+.innerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.emailInput {
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px 12px 8px 0;
+  font-size: 18px;
+  border: none;
+  color: #333;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #70bf4f;
+  font-family: "Poppins", Verdana, Tahoma, sans-serif;
+}
+
