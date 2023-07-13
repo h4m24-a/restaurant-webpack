@@ -56,6 +56,7 @@ function clearContent() {
   const homeDiv = document.querySelector(".homeDiv");
   const topdishDiv = document.querySelector(".topdishDiv");
   const newsletterDiv = document.querySelector(".newsletterDiv")
+  const footerDiv = document.querySelector(".footerDiv")
   if (newDiv) {
     content.removeChild(newDiv);
   }
@@ -68,6 +69,8 @@ function clearContent() {
   }
   if (newsletterDiv) {
     content.removeChild(newsletterDiv);
+  } if (footerDiv) {
+    content.removeChild(footerDiv)
   }
 }
 export default createTabs;
