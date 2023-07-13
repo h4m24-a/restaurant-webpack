@@ -315,3 +315,20 @@ ul.menu-list li:hover {
   color: white;
   padding: 15px;
 }
+
+
+#menuButton:hover {
+  color: #F23A3A;
+}
+
+#menuButton:active {
+  color: #E95D5D;
+}
+
+#homeButton:hover {
+  color: #F23A3A;
+}
+
+#homeButton:active {
+  color: #E95D5D;
+}
