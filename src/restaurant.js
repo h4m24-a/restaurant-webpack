@@ -11,6 +11,9 @@ const createRestaurantHomePage = () => {
 
   const newsletterDiv = document.createElement("div");
   newsletterDiv.classList.add("newsletterDiv");
+
+  const footerDiv = document.createElement("div");
+  footerDiv.classList.add("footerDiv");
   
 
   
@@ -93,11 +96,11 @@ function createCard(imageUrl, headingText, paragraphText, priceText) {
   paragraph.classList.add("card-paragraph");
   card.appendChild(paragraph);
 
-    // Create price element
-    const price = document.createElement("p");
-    price.innerText = priceText;
-    price.classList.add("card-price");
-    card.appendChild(price);
+  // Create price element
+  const price = document.createElement("p");
+  price.innerText = priceText;
+  price.classList.add("card-price");
+  card.appendChild(price);
 
   return card;
 }
@@ -144,6 +147,17 @@ containerDiv.appendChild(innerDiv);
 
 newsletterDiv.appendChild(containerDiv);
 content.appendChild(newsletterDiv);
+
+
+// Footer
+
+const footerText = document.createElement("p");
+footerText.innerText =
+  "Pizzeria Restaurant ©";
+  footerText.classList.add("footerText");
+
+footerDiv.appendChild(footerText)
+content.appendChild(footerDiv)
 
 
   

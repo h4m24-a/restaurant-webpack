@@ -190,7 +190,7 @@ ul.menu-list li:hover {
   height: 500px;
   background-color: #faf7f7;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 4rem;
   padding: 2rem;
   box-sizing: border-box;
   height: 200%;
@@ -231,8 +231,7 @@ ul.menu-list li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-top: 5rem;
+  text-align: center;  
 }
 
 .newsletterText {
@@ -248,6 +247,8 @@ ul.menu-list li:hover {
   max-height: 100%;
   margin: 0 auto;
   filter: brightness(50%);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   border-radius: 5%;
 }
 
@@ -283,3 +284,20 @@ ul.menu-list li:hover {
   font-family: "Poppins", Verdana, Tahoma, sans-serif;
 }
 
+.footerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a172a;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.footerText {
+  font-family: "Rubik", Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
